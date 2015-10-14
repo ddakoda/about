@@ -11,4 +11,13 @@ $(document).ready(function(){
 //     $('#profile-pic').attr('src', '/img/' + dakoda);
 //   });
 
+  var height = $(window).height();
+    $('#home').height(height);
+    $('#about').height(height);
+
+  $(window).resize(function() {
+      var height = $(window).height();
+      $('#home').height(height);
+      $('#about').height(height);
+  });
 })
