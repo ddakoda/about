@@ -109,10 +109,10 @@ $white: #f7f9f4;
     height: 800px;
     z-index: 2;
   }*/
-  #home-container{
+  /*#home-container{*/
 /*  background-color: #F6E8EA;
     overflow: auto;
-    width: 500px;
+    width: 100%;
     margin: 0 auto 0;
     padding-top: 75px;
     overflow: visible;
