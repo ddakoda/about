@@ -24,68 +24,46 @@ $white: #f7f9f4;
   /*#### .class and #id ####*/
 
 /*  #### nav-life ####*/
+  html{
+    height: 100%;
+  }
   body{
+    height: 100%;
 /*    background-image: url("/img/door.jpg");
     background-size: cover;
     background-attachment: fixed;*/
   }
-  html{
-    font-size: 18px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 100;
-  }
-  .side-wrapper{
-    color: rgba(23, 205, 220, 100);
-    height: 250px;
-    border-radius: 10px;
-    width: 90%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .inner-wrapper{
-    color: rgba(23, 205, 220, 100);
-    height: 250px;
-    border-radius: 10px;
-    width: 90%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
   .nav{
-    color: rgba(23, 205, 220, 100);
-    height: 250px;
-    border-radius: 10px;
-    width: 90%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    background-color: rgba(23, 205, 220, 100);
+    padding: 10px;
+    height: 200px;
+    z-index: 1;
   }
   .hamburger-toggle{
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    text-decoration: none;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
   }
-
   .fa{
     padding: 0px 0px 0px 10px;
     margin: 90px auto 25px;
   }
   .fa-bars{
-    font-size: 80px;
     float: right;
+    position: absolute;
     color: rgba(247, 249, 244, 100);
   }
-  .fa-3x{
+  .fa-2x{
     color: rgba(119, 135, 139, 100);
     padding: 0px 0px 0px 10px;
     margin: 90px auto 25px;
   }
   .hamburger{
-
+    float: left;
+    position: fixed;
   }
   ul{
     padding: 0px 0px 0px 10px;
@@ -97,36 +75,27 @@ $white: #f7f9f4;
     font-size: 28px;
     text-decoration: none;
     font-weight: 100;
-    padding: 20px;
+    padding: 18px;
   }
 
 /*  #### home-life ####*/
-/*  #home{
+  #home{
     width: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 800px;
-    z-index: 2;
-  }*/
-  /*#home-container{*/
-/*  background-color: #F6E8EA;
-    overflow: auto;
+    background-color: rgba(23, 205, 220, 100);
+  }
+  #home-container{
     width: 100%;
-    margin: 0 auto 0;
-    padding-top: 75px;
-    overflow: visible;
-    max-width: 100%;*/
+    background-color: rgba(23, 205, 220, 100);
   }
   #profile-pic{
     display: block;
     border-radius: 50%;
-    width: 270px;
+    width: 300px;
     margin: 90px auto 25px;
   }
   h1{
     font-family: 'Playfair Display', serif;
-    font-size: 58px;
+    font-size: 38px;
     text-align: center;
   }
   .icons{
@@ -142,19 +111,20 @@ $white: #f7f9f4;
 
 /*  #### about-life ####*/
   #about{
-    margin: 0 auto;
+ /*   margin: 0 auto;
     height: 500px;
-    width: 100%;
+    width: 100%;*/
   }
   #about-container{
-    margin: 0 auto;
+ /*   margin: 0 auto;
     height: 500px;
-    width: 100%;
+    width: 100%;*/
   }
   h2{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 48px;
+    font-size: 28px;
     text-align: center;
+    position: fixed;
   }
   h3{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -164,16 +134,18 @@ $white: #f7f9f4;
 
 /*  #### footer-life ####*/
   footer{
-    background-color: rgba(119, 135, 139, 100);
-    width: 100%;
+    background-color: black;
+    padding: 10px;
+    height: 200px;
+    /*width: 100%;
     height: 100px;
-    margin: 0 20px;
+    margin: 0 20px;*/
   }
   .goodbye{
-    background-color: white;
+    background-color: grey;
     font-family: 'Playfair Display', serif;
     font-size: 32px;
-    height: 50px;
+    height: 38px;
     padding: 40px 20px;
     text-align: right;
   }
