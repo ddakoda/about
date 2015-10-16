@@ -29,9 +29,6 @@ $white: #f7f9f4;
   }
   body{
     height: 100%;
-/*    background-image: url("/img/door.jpg");
-    background-size: cover;
-    background-attachment: fixed;*/
   }
   .nav{
     background-color: rgba(247, 249, 244, 100);
@@ -92,7 +89,8 @@ $white: #f7f9f4;
     background-repeat: no-repeat;
   }
   #about-container{
-    background-color: rgba(119, 135, 139, .5);
+    background-color: rgba(119, 135, 139, .3);
+    padding: 5px 0px 0px 5px;
     height: 100%;
     width: 100%;
   }
@@ -106,8 +104,8 @@ $white: #f7f9f4;
 /*  #### profile-life ####*/
   #profile{
     width: 100%;
-    height: 100%;
-    background-color: rgba(247, 249, 244, .3);
+    height: 90%;
+    background-color: rgba(119, 135, 139, .3);
   }
   #profile-pic{
     display: block;
