@@ -11,14 +11,14 @@ $(document).ready(function(){
     $('#profile-pic').attr('src', 'img/' + dakoda);
 
   var height = $(window).height();
-    $('#home').height(height);
     $('#about').height(height);
+    $('#profile').height(height);
+    $('#contact').height(height);
 
   $(window).resize(function() {
       var height = $(window).height();
-      $('#home').height(height);
       $('#about').height(height);
+      $('#profile').height(height);
+      $('#contact').height(height);
   });
 })
-
-// $('.hamburger').slideToggle("fast");

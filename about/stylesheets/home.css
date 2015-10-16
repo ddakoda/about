@@ -129,12 +129,12 @@ $white: #f7f9f4;
   }
   .icons{
     padding: 50px;
-    padding: 10px 0px 0px 10px;
+    padding: 20px 5px 5px 20px;
     margin: 90px auto 25px;
   }
-  .fa-3x{
+  .fa-4x{
     color: rgba(0, 0, 0, 100);
-    padding: 0px 0px 0px 10px;
+    padding: 20px 5px 5px 20px;
     margin: 90px auto 25px;
   }
   a{
