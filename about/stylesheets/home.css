@@ -85,22 +85,29 @@ $white: #f7f9f4;
   #intro{
     height: 100%;
     width: 100%;
+    padding: 10px;
   }
   #intro-container{
-    background-color: rgba(119, 135, 139, .5);
-    height: 100%;
-    width: 100%;
+    padding: 10px;
   }
   ul{
     height: 100%;
     width: 100%;
+    list-style-type: none;
+    text-decoration: none;
   }
   .li-imgs{
     display: none;
+    list-style-type: none;
+    text-decoration: none;
   }
   img{
-    /*max-width: 100%;*/
     background-size: contain;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
   }
 
 /*  #### profile-life ####*/
