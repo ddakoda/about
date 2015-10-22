@@ -1,11 +1,11 @@
 // #### Hamburger Menu ####
 $(document).ready(function(){
-  $('.hamburger').hide();
+  // $('.hamburger').hide();
 
-  $('.hamburger-toggle').on("click", function(evt){evt.preventDefault();
+  // $('.hamburger-toggle').on("click", function(evt){evt.preventDefault();
 
-    $('.hamburger').slideToggle("expand");
-  });
+  //   $('.hamburger').slideToggle("expand");
+  // });
 
 
 // #### Cat Change On Refresh ####

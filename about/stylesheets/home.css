@@ -8,11 +8,11 @@ $text: 'Open Sans Condensed', sans-serif;
 $black: #000000;
   rgba(0, 0, 0, 100);
 
-$slate: #5a5353;
-  rgba(90, 83, 83, 100);
-
 $grey: #77878b;
   rgba(119, 135, 139, 100);
+
+$light grey: #bfc4c9;
+  rgba(191, 196, 201, 100);
 
 $blue: #17cddc;
   rgba(23, 205, 220, 100);
@@ -25,60 +25,48 @@ $white: #f7f9f4;
 /*  #### nav-life ####*/
   html{
     height: 100%;
+    width: 100%;
   }
   body{
     height: 100%;
+    width: 100%;
   }
   .nav{
     background-color: rgba(247, 249, 244, 100);
-    padding: 10px;
-    height: 150px;
+    height: 100%;
+    width: 100%;
     z-index: 1;
   }
-  h1{
+  .circle{
+    display: block;
+    background-color: rgba(23, 205, 220, 100);
+    border-radius: 50%;
+    width: 40px;
+    margin: 90px auto 25px;
+    margin: center;
+  }
+  .profile-pic{
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    margin: 90px auto 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hello{
+    background-color: rgba(247, 249, 244, 100);
     font-family: 'Playfair Display', serif;
-    font-size: 38px;
+    font-size: 58px;
+    font-weight: 400;
+    height: 38px;
+    padding: 40px 20px;
     text-align: center;
   }
-  .hamburger-toggle{
-    width: 100px;
-    height: 350px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-  }
-  .fa{
-    padding: 0px 0px 0px 10px;
-    margin: 90px auto 25px;
-  }
-  .fa-bars{
-    float: right;
-    margin: 0 auto;
-    position: absolute;
-    color: rgba(119, 135, 139, 100);
-  }
-  .fa-2x{
-    color: rgba(0, 0, 0, 100);
-    padding: 0px 0px 0px 10px;
-    margin: 90px auto 25px;
-  }
-  .hamburger{
-    float: left;
-    position: fixed;
-  }
-  .hamburger-ul{
-    padding: 0px 0px 0px 10px;
-    list-style-type: none;
-    text-decoration: none;
-  }
-  .hamburger-li{
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    text-decoration: none;
-    font-weight: 100;
-    float: right;
-    padding: 18px;
+  h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
   }
 
 /*  #### intro-life ####*/
@@ -87,7 +75,7 @@ $white: #f7f9f4;
     width: 100%;
     padding: 10px;
   }
-  #intro-container{
+  .intro-container{
     padding: 10px;
   }
   ul{
@@ -101,35 +89,48 @@ $white: #f7f9f4;
     list-style-type: none;
     text-decoration: none;
   }
-  img{
+/*  img{
     background-size: contain;
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+  }*/
+  h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(23, 205, 220, 100);
+    font-size: 32px;
+    text-align: center;
   }
+/*  #### work-life ####*/
 
-/*  #### profile-life ####*/
-  #profile{
-    width: 100%;
-    height: 90%;
-    background-color: rgba(247, 249, 244, 100);
-  }
-  #profile-pic{
-    display: block;
-    border-radius: 50%;
-    width: 350px;
-    margin: 90px auto 25px;
-  }
+
 
 /*  #### contact-life ####*/
   #contact{
-    background: url('../img/intro/kapula.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
   }
-  #about-container{
+  .contact-container{
+    background-color: rgba(119, 135, 139, .5);
+    height: 100%;
+    width: 100%;
+  }
+  h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+
+/*  #### footer-life ####*/
+  footer{
+    height: 100%;
+    width: 100%;
+  }
+  .footer-container{
     background-color: rgba(119, 135, 139, .5);
     height: 100%;
     width: 100%;
@@ -137,6 +138,10 @@ $white: #f7f9f4;
   .icons{
     padding: 50px;
     padding: 20px 5px 5px 20px;
+    margin: 90px auto 25px;
+  }
+  .fa{
+    padding: 0px 0px 0px 10px;
     margin: 90px auto 25px;
   }
   .fa-3x{
@@ -149,19 +154,14 @@ $white: #f7f9f4;
     padding: 0 6%;
     margin: 0px auto;
   }
-
-/*  #### footer-life ####*/
-  footer{
-    padding: 10px;
-    height: 200px;
-  }
   .goodbye{
-    background-color: rgba(247, 249, 244, 100);
-    font-family: 'Playfair Display', serif;
+    background-color: rgba(191, 196, 201, 100);
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
+    text-align: center;`
+    text-decoration: inherit;
     height: 38px;
     padding: 40px 20px;
-    text-align: right;
   }
 
 
