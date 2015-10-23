@@ -32,7 +32,7 @@ $white: #f7f9f4;
     width: 100%;
   }
   .nav{
-    background-color: rgba(247, 249, 244, 100);
+    background-color: rgba(119, 135, 139, .25);
     height: 100%;
     width: 100%;
     z-index: 1;
@@ -89,14 +89,14 @@ $white: #f7f9f4;
     list-style-type: none;
     text-decoration: none;
   }
-/*  img{
+  img{
     background-size: contain;
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-  }*/
+  }
   h3{
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgba(23, 205, 220, 100);
@@ -104,16 +104,12 @@ $white: #f7f9f4;
     text-align: center;
   }
 /*  #### work-life ####*/
-
-
-
-/*  #### contact-life ####*/
-  #contact{
+  #work{
     height: 100%;
     width: 100%;
   }
-  .contact-container{
-    background-color: rgba(119, 135, 139, .5);
+  .work-container{
+    background-color: rgba(255, 255, 255, .5);
     height: 100%;
     width: 100%;
   }
@@ -123,7 +119,25 @@ $white: #f7f9f4;
     font-weight: 400;
     text-align: center;
   }
-
+  .open-pic{
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    margin: center;
+    background-size: contain;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: inherit;
+    height: 48px;
+    padding: 40px 20px;
+  }
 
 /*  #### footer-life ####*/
   footer{
@@ -131,7 +145,7 @@ $white: #f7f9f4;
     width: 100%;
   }
   .footer-container{
-    background-color: rgba(119, 135, 139, .5);
+    background-color: rgba(119, 135, 139, .25);
     height: 100%;
     width: 100%;
   }
@@ -155,10 +169,9 @@ $white: #f7f9f4;
     margin: 0px auto;
   }
   .goodbye{
-    background-color: rgba(191, 196, 201, 100);
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
-    text-align: center;`
+    text-align: center;
     text-decoration: inherit;
     height: 38px;
     padding: 40px 20px;
