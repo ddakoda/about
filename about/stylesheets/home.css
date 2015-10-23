@@ -120,14 +120,7 @@ $white: #f7f9f4;
     text-align: center;
   }
   .open-pic{
-    display: block;
-    border-radius: 50%;
-    width: 40px;
-    margin: center;
-    background-size: contain;
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
+
   }
   h4{
     font-family: 'Open Sans Condensed', sans-serif;
