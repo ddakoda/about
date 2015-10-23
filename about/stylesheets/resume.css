@@ -66,3 +66,24 @@
     text-align: right;
   }
 
+/*  #### quote-life ####*/
+
+  .icons{
+    padding: 50px;
+    padding: 20px 5px 5px 20px;
+    margin: 90px auto 25px;
+  }
+  .fa{
+    padding: 0px 0px 0px 10px;
+    margin: 90px auto 25px;
+  }
+  .fa-2x{
+    color: rgba(0, 0, 0, 100);
+    padding: 20px 5px 5px 20px;
+    margin: 90px auto 25px;
+  }
+  a{
+    color: rgba(119, 135, 139, 100);
+    padding: 0 6%;
+    margin: 0px auto;
+  }
