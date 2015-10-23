@@ -1,0 +1,74 @@
+/*#### .class and #id ####*/
+
+/*  #### nav-life ####*/
+  html{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  .nav{
+    background-color: rgba(119, 135, 139, .25);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .hello{
+    background-color: rgba(247, 249, 244, 100);
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
+    font-weight: 400;
+    height: 38px;
+    padding: 40px 20px;
+    text-align: right;
+  }
+  h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: right;
+  }
+
+/*  #### work-life ####*/
+  .work{
+    width: 75%;
+    margin: 32px auto;
+  }
+  .details{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: right;
+  }
+  br{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: right;
+  }
+/*  #### ability-life ####*/
+  .ability{
+    width: 75%;
+    margin: 32px auto;
+  }
+  .skills{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: right;
+  }
+
+/*  #### quote-life ####*/
+  .recs{
+    width: 75%;
+    margin: 32px auto;
+  }
+  .quote{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: right;
+  }
+

@@ -1,13 +1,4 @@
-// #### Hamburger Menu ####
 $(document).ready(function(){
-  // $('.hamburger').hide();
-
-  // $('.hamburger-toggle').on("click", function(evt){evt.preventDefault();
-
-  //   $('.hamburger').slideToggle("expand");
-  // });
-
-
 // #### Cat Change On Refresh ####
   var dakodaImages = ['milo.jpg', 'pi.jpg', 'ak.jpg', 'steven.jpg'];
   var dakoda = dakodaImages[Math.floor(Math.random() * dakodaImages.length)];
