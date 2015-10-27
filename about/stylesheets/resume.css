@@ -19,12 +19,17 @@
     margin: 90px auto 25px;
     background-position: center;
     background-repeat: no-repeat;
+    border: 3px solid rgba(23, 205, 220, 100);
   }
   h5{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
+    color: rgba(119, 135, 139, 1);
     font-weight: 300;
     text-align: center;
+  }
+  .dot{
+    color: rgba(23, 205, 220, 100);
   }
 
 /*  #### work-life ####*/
@@ -32,16 +37,22 @@
     width: 75%;
     margin: 32px auto;
   }
+  h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+  }
   .details{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-color: rgba(23, 205, 220, 100);
+    color: rgba(119, 135, 139, 1);
     font-size: 32px;
     font-weight: 400;
     text-align: center;
   }
   br{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 400;
     text-align: right;
   }
@@ -54,6 +65,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
     font-weight: 400;
+    color: rgba(119, 135, 139, 1);
     text-align: right;
   }
 
@@ -66,6 +78,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
     font-weight: 400;
+    color: rgba(119, 135, 139, 1);
     text-align: right;
   }
 
@@ -88,4 +101,14 @@
     color: rgba(119, 135, 139, 100);
     padding: 0 6%;
     margin: 0px auto;
+  }
+  .bye{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: rgba(23, 205, 220, 100);
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: inherit;
+    padding: 40px 20px;
   }

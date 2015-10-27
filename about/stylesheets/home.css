@@ -33,7 +33,7 @@ $white: #f7f9f4;
   }
   .nav{
     background-color: rgba(119, 135, 139, .25);
-    /*height: 600px;*/
+  /*  height: 600px;*/
     height: 100%;
     width: 100%;
 /*    z-index: 1;*/
@@ -41,8 +41,8 @@ $white: #f7f9f4;
   .profile-pic{
     display: block;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 90px auto 25px;
     background-position: center;
     background-repeat: no-repeat;
