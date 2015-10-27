@@ -33,27 +33,22 @@ $white: #f7f9f4;
   }
   .nav{
     background-color: rgba(119, 135, 139, .25);
+    /*height: 600px;*/
     height: 100%;
     width: 100%;
-    z-index: 1;
-  }
-  .circle{
-    display: block;
-    background-color: rgba(23, 205, 220, 100);
-    border-radius: 50%;
-    width: 40px;
-    margin: 90px auto 25px;
-    margin: center;
+/*    z-index: 1;*/
   }
   .profile-pic{
     display: block;
     border-radius: 50%;
     width: 400px;
+    height: 400px;
     margin: 90px auto 25px;
     background-position: center;
     background-repeat: no-repeat;
+    border: 3px solid rgba(23, 205, 220, 100);
   }
-  .hello{
+/*  .hello{
     background-color: rgba(247, 249, 244, 100);
     font-family: 'Playfair Display', serif;
     font-size: 58px;
@@ -61,22 +56,25 @@ $white: #f7f9f4;
     height: 38px;
     padding: 40px 20px;
     text-align: center;
-  }
+  }*/
   h1{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 32px;
     font-weight: 300;
     text-align: center;
   }
+  .dot{
+    color: rgba(23, 205, 220, 100);
+  }
 
 /*  #### intro-life ####*/
   #intro{
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
   }
   .intro-container{
-    padding: 10px;
+    padding: 5px;
   }
   ul{
     height: 100%;
@@ -85,11 +83,13 @@ $white: #f7f9f4;
     text-decoration: none;
   }
   .li-imgs{
+    width: 100%;
+    height: 100%;
     display: none;
     list-style-type: none;
     text-decoration: none;
   }
-  img{
+  .slide{
     background-size: contain;
     position: absolute;
     background-position: center;
@@ -119,9 +119,9 @@ $white: #f7f9f4;
     font-weight: 400;
     text-align: center;
   }
-  .open-pic{
+/*  .open-pic{
 
-  }
+  }*/
   h4{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 42px;
@@ -131,6 +131,14 @@ $white: #f7f9f4;
     height: 48px;
     padding: 40px 20px;
   }
+  .mail{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(23, 205, 220, 100);
+    margin: 0px auto;
+}
 
 /*  #### footer-life ####*/
   footer{
@@ -141,6 +149,7 @@ $white: #f7f9f4;
     background-color: rgba(119, 135, 139, .25);
     height: 100%;
     width: 100%;
+    text-align: center;
   }
   .icons{
     padding: 50px;
@@ -163,12 +172,12 @@ $white: #f7f9f4;
   }
   .goodbye{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 32px;
+    font-size: 52px;
+    font-weight: 400;
+    color: rgba(23, 205, 220, 100);
     text-align: center;
+    margin: 0px auto;
     text-decoration: inherit;
     height: 38px;
     padding: 40px 20px;
   }
-
-
-

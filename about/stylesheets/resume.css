@@ -5,23 +5,26 @@
   }
 
 /*  #### nav-life ####*/
-  .name{
-    width: 75%;
-    margin: 32px auto;
+  .nav{
+    background-color: rgba(119, 135, 139, .25);
+    padding: 5px 0 0 5px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
   }
-  h1{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-color: rgba(23, 205, 220, 100);;
-    font-size: 42px;
-    font-weight: 500;
-    text-align: right;
+  .profile-pic{
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    margin: 90px auto 25px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-  .dw{
+  h5{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-color: rgba(23, 205, 220, 100);
-    font-size: 72px;
-    font-weight: 500;
-    text-align: right;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
   }
 
 /*  #### work-life ####*/
@@ -34,7 +37,7 @@
     font-color: rgba(23, 205, 220, 100);
     font-size: 32px;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
   }
   br{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -67,7 +70,6 @@
   }
 
 /*  #### quote-life ####*/
-
   .icons{
     padding: 50px;
     padding: 20px 5px 5px 20px;

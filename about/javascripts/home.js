@@ -7,14 +7,14 @@ $(document).ready(function(){
 // #### Resize/Restore ####
   var height = $(window).height();
     $('#intro').height(height);
-    $('#profile').height(height);
-    $('#contact').height(height);
+    $('#work').height(height);
+    $('.slide').height(height);
 
   $(window).resize(function() {
     var height = $(window).height();
       $('#intro').height(height);
-      $('#profile').height(height);
-      $('#contact').height(height);
+      $('#work').height(height);
+      $('.slide').height(height);
   });
 
 // #### JS To Toggle Intro Images ####
@@ -29,4 +29,5 @@ $(document).ready(function(){
   }, 6000)
 
 })
+
 
