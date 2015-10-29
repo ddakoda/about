@@ -97,11 +97,21 @@ $white: #f7f9f4;
     height: 100%;
     width: 100%;
   }
-  h3{
+  .location{
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgba(23, 205, 220, 100);
     font-size: 32px;
     text-align: center;
+    position: absolute;
+    padding: 10px;
+  }
+   h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(23, 205, 220, 100);
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    width: 100%
   }
 /*  #### work-life ####*/
   #work{
@@ -160,7 +170,7 @@ $white: #f7f9f4;
     padding: 0px 0px 0px 10px;
     margin: 90px auto 25px;
   }
-  .fa-3x{
+  .fa-2x{
     color: rgba(0, 0, 0, 100);
     padding: 20px 5px 5px 20px;
     margin: 90px auto 25px;
